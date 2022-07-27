@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Naverlogin.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <!--header start-->
+      <div id="headerwrap">
+        <div id="header">
+          <a href="https://www.naver.com"><span id="logo"></span> </a>
+        </div>
+      </div>
+      <!--main start-->
+      <div id="main">
+        <form action="">
+          <!-- id,password -->
+          <div class="infobox1">
+            <div class="infobox2">
+              <h3>아이디</h3>
+              <span class="idspan">
+                <input
+                  type="text"
+                  class="inputsom"
+                  required="required"
+                  placeholder="아이디를 입력해주세요."
+                /><span>@naver.com</span>
+              </span>
+            </div>
+            <div class="infobox2">
+              <h3>비밀번호</h3>
+              <span class="idspan">
+                <input
+                  type="password"
+                  class="inputsom"
+                  required="required"
+                  placeholder="비밀번호 5~20자리 입력"
+                />
+              </span>
+            </div>
+            <div class="infobox2">
+              <h3>비밀번호 재확인</h3>
+              <span class="idspan">
+                <input
+                  type="password"
+                  class="inputsom"
+                  required="required"
+                  placeholder="비밀번호 재확인"
+                />
+              </span>
+            </div>
+          </div>
+          <br />
+          <!-- name,birth,gender,email -->
+          <div class="infobox1">
+            <div class="infobox2">
+              <h3>이름</h3>
+              <span class="idspan">
+                <input
+                  type="text"
+                  class="inputsom"
+                  required="required"
+                  placeholder="이름"
+                />
+              </span>
+            </div>
+            <div class="infobox2">
+              <h3>생년월일</h3>
+              <div id="birthday">
+                <span class="birth">
+                  <input
+                    type="text"
+                    class="inputsom"
+                    required="required"
+                    placeholder="년(4자)"
+                  />
+                </span>
+                <span class="birth">
+                  <select name="month" id="month" required="required">
+                    <option value="">월</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                  </select>
+                </span>
+                <span class="birth">
+                  <input
+                    type="text"
+                    class="inputsom"
+                    required="required"
+                    placeholder="일"
+                  />
+                </span>
+              </div>
+            </div>
+            <div class="infobox2">
+              <h3>성별</h3>
+              <span class="idspan">
+                <select name="성별" id="gender" required="required">
+                  <option value="성별">성별</option>
+                  <option value="남자">남자</option>
+                  <option value="여자">여자</option>
+                  <option value="선택 안함">선택 안함</option>
+                </select>
+              </span>
+            </div>
+            <div class="infobox2">
+              <h3>본인 확인 이메일(선택)</h3>
+              <span class="idspan">
+                <input type="text" class="inputsom" placeholder="선택입력" />
+              </span>
+            </div>
+          </div>
+          <br />
+          <!-- phone -->
+          <div class="infobox1">
+            <div class="infobox2">
+              <h3>휴대전화</h3>
+              <span class="idspan phonebox">
+                <select name="country" id="country">
+                  <option value="korea">대한민국 +82</option>
+                  <option value="america">미국/캐나다 +1</option>
+                  <option value="france">프랑스 +33</option>
+                  <option value="england">영국 +44</option>
+                </select>
+              </span>
+              <div id="inputnum" class="phonebox">
+                <span>
+                  <input
+                    type="text"
+                    class="inputsom"
+                    required="required"
+                    placeholder="전화번호 입력"
+                  />
+                </span>
+                <a href="#"><div>인증번호 받기</div></a>
+              </div>
+              <span id="numspan" class="phonebox">
+                <input
+                  type="text"
+                  class="inputsom"
+                  required="required"
+                  placeholder="인증번호 입력하세요"
+                  readonly
+                />
+              </span>
+            </div>
+          </div>
+          <div id="joinbox">
+            <input type="submit" value="가입하기" id="join" />
+          </div>
+        </form>
+      </div>
+      <br />
+      <!--footer start-->
+      <div id="footer">
+        <div id="footerdiv">
+          <ul id="footerul1">
+            <li class="footerulli1"><a href="#">이용약관</a></li>
+            <li class="border footerulli1">
+              <a href="#"><strong>개인정보처리방침</strong></a>
+            </li>
+            <li class="border footerulli1">
+              <a href="#">책임의 한계와 법적고지</a>
+            </li>
+            <li class="border footerulli1">
+              <a href="#">회원정보 고객센터</a>
+            </li>
+          </ul>
+        </div>
+        <div id="footerdiv">
+          <ul id="footerul2">
+            <li class="footerulli2">
+              <a href="#"><span id="bottomlogo"></span></a>
+            </li>
+            <li class="footerulli2">Copyright</li>
+            <li class="footerulli1 footerulli2">
+              <a href="#"><strong>NAVER Corp.</strong></a>
+            </li>
+            <li class="footerulli2">All Rights Reserved.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

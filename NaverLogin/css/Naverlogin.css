@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6f7;
+}
+
+#wrap {
+  width: 100%;
+  height: 500px;
+}
+h3 {
+  margin: 3px;
+  font-size: 15px;
+}
+/* header start */
+#headerwrap {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+#header {
+  width: 27%;
+  height: 6vh;
+  margin: 0 auto;
+}
+#logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/naver_logo.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 200px auto;
+}
+
+/* main start */
+#main {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.infobox1 {
+  width: 90%;
+  margin: 0 auto;
+}
+.infobox2 {
+  width: 100%;
+  margin-bottom: 13px;
+}
+.idspan {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  border: solid 1px #dadada;
+  align-items: center;
+}
+.inputsom {
+  display: block;
+  width: 100%;
+  height: 5vh;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  margin-top: 2px;
+}
+.idspan > span {
+  margin-right: 10px;
+  color: #8e8e8e;
+  font-size: 15px;
+}
+#birthday {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.birth {
+  display: block;
+  width: 32%;
+  background-color: #ffffff;
+  border: solid 1px #dadada;
+}
+/* 월 선택 */
+#month {
+  width: 95%;
+  height: 5vh;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  margin-top: 2px;
+}
+/* 성별선택 */
+#gender {
+  width: 95%;
+  height: 5vh;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  margin-top: 2px;
+}
+/* 나라 선택 */
+#country {
+  width: 95%;
+  height: 5vh;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  margin-top: 2px;
+}
+#inputnum {
+  display: flex;
+  justify-content: space-between;
+}
+#inputnum > span {
+  width: 68%;
+  background-color: #ffffff;
+  border: solid 1px #dadada;
+  align-items: center;
+}
+#inputnum > a {
+  width: 30%;
+  text-decoration: none;
+}
+#inputnum > a > div {
+  width: 100%;
+  height: 100%;
+  background-color: #03c75a;
+  color: #ffffff;
+  text-align: center;
+  line-height: 5vh;
+  font-weight: 700;
+  cursor: pointer;
+}
+#numspan {
+  display: block;
+  width: 100%;
+  background-color: #f5f6f7;
+  border: solid 1px #dadada;
+}
+.phonebox {
+  margin-bottom: 13px;
+}
+/* 가입버튼 */
+#joinbox {
+  width: 90%;
+  margin: 0 auto;
+}
+#join {
+  width: 100%;
+  background-color: #03c75a;
+  color: #ffffff;
+  border: none;
+  text-align: center;
+  line-height: 5vh;
+  font-weight: 700;
+  font-size: 17px;
+  cursor: pointer;
+}
+/* 푸터 */
+#footer {
+  width: 30%;
+  margin: 0 auto;
+}
+#footerdiv {
+  width: 100%;
+  display: inline-block;
+}
+#footerul1 {
+  display: flex;
+  justify-content: space-between;
+}
+.footerulli1 {
+  font-size: 12px;
+  list-style: none;
+}
+.footerulli1 > a {
+  text-decoration: none;
+}
+.border {
+  border-left: 1px solid #dadada;
+  padding-left: 8px;
+}
+.footerulli1 a:visited {
+  color: black;
+}
+.footerulli1 a:link {
+  color: black;
+}
+.footerulli1 a:hover {
+  color: #065e2d;
+  text-decoration: underline;
+}
+#footerul2 {
+  width: 70%;
+  margin: 1vh auto;
+  display: flex;
+  justify-content: space-around;
+}
+.footerulli2 {
+  font-size: 11px;
+  list-style: none;
+}
+.footerulli2 > a {
+  text-decoration: none;
+}
+#bottomlogo {
+  display: block;
+  width: 3.5vw;
+  height: 2.6vh;
+  background-image: url("../img/naver_logo.png");
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+  background-size: 85px auto;
+}
